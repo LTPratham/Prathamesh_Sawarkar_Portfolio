@@ -1,0 +1,30 @@
+name: 🐛 Bug Report
+description: Report a broken link, visual issue, or bug on the portfolio
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue!
+  - type: input
+    id: url
+    attributes:
+      label: Affected URL or Section
+      placeholder: e.g. https://prathameshsawarkar.vercel.app/#projects
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the issue is.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Device & Browser
+      placeholder: e.g. Chrome 124 / macOS Sonoma / iPhone 15 Safari
+    validations:
+      required: false

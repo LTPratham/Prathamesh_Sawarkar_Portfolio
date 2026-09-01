@@ -1,0 +1,29 @@
+name: CI Code Quality & Linting
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify Core Files Exist
+        run: |
+          test -f index.html || (echo "index.html missing" && exit 1)
+          test -f vercel.json || (echo "vercel.json missing" && exit 1)
+          test -f README.md || (echo "README.md missing" && exit 1)
+          test -f site.webmanifest || (echo "site.webmanifest missing" && exit 1)
+          test -f robots.txt || (echo "robots.txt missing" && exit 1)
+          test -f sitemap.xml || (echo "sitemap.xml missing" && exit 1)
+          echo "All critical static portfolio files verified successfully."

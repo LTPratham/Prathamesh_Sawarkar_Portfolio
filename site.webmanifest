@@ -1,0 +1,16 @@
+{
+  "name": "Prathamesh Sawarkar — Portfolio",
+  "short_name": "PS Portfolio",
+  "description": "Portfolio of Prathamesh Sawarkar — Software Engineer working across AI, Cybersecurity, IoT and Human Impact.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F0DC",
+  "theme_color": "#FFD600",
+  "icons": [
+    {
+      "src": "assets/portrait.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

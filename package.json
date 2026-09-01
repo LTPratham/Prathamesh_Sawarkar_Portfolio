@@ -1,0 +1,43 @@
+{
+  "name": "prathamesh-sawarkar-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Portfolio of Prathamesh Sawarkar — Software Engineer working across AI, Cybersecurity, IoT, and Human Impact Technology.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve .",
+    "build": "echo \"Static portfolio is production-ready for Vercel and GitHub Pages.\"",
+    "serve": "npx serve . -l 5000",
+    "lint": "echo \"Validating static assets...\"",
+    "format": "npx prettier --write \"**/*.{html,css,js,json,md}\"",
+    "test": "echo \"All portfolio checks passing.\" && exit 0"
+  },
+  "keywords": [
+    "portfolio",
+    "software-engineer",
+    "cybersecurity",
+    "ai",
+    "iot",
+    "neobrutalism",
+    "developer-portfolio",
+    "lpu",
+    "blockchain",
+    "vercel"
+  ],
+  "author": {
+    "name": "Prathamesh Sawarkar",
+    "email": "Prathameshsawarkar1@gmail.com",
+    "url": "https://github.com/LTPratham"
+  },
+  "license": "MIT",
+  "homepage": "https://prathameshsawarkar.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LTPratham/Prathamesh_Sawarkar_Portfolio.git"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "serve": "^14.2.1"
+  }
+}

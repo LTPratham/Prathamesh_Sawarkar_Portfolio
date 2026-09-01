@@ -1,0 +1,19 @@
+name: 💡 Feature or Project Enhancement Request
+description: Suggest an idea, UI improvement, or new case study enhancement
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion Summary
+      description: Describe your idea or proposed addition clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context or Value
+      description: Why would this be a great addition to the portfolio?
+    validations:
+      required: false
