@@ -143,7 +143,7 @@ documentation/
 ## 📞 Connect & Contact
 
 - 🌐 **Portfolio Live**: [prathameshsawarkar.vercel.app](https://prathameshsawarkar.vercel.app)
-- 💼 **LinkedIn**: [linkedin.com/in/prathamesh-sawarkar](https://www.linkedin.com/in/prathamesh-sawarkar)
+- 💼 **LinkedIn**: [linkedin.com/in/prathamesh-sawarkar-43b497319](https://www.linkedin.com/in/prathamesh-sawarkar-43b497319/)
 - 🐙 **GitHub**: [@LTPratham](https://github.com/LTPratham)
 - 📧 **Email**: [Prathameshsawarkar1@gmail.com](mailto:Prathameshsawarkar1@gmail.com)
 - 📱 **Phone**: +91 87678 63134
