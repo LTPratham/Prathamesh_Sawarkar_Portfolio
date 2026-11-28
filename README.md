@@ -29,7 +29,12 @@
 
 ## 📌 Overview
 
-This is the personal portfolio of **Prathamesh Sawarkar**, a B.Tech Honours student in **Cyber Security & Blockchain** at **Lovely Professional University (LPU)**. 
+This is the personal engineering portfolio of **Prathamesh Sawarkar**, a B.Tech (Honours) student in **Cyber Security & Blockchain** at **Lovely Professional University (LPU)** (CGPA: 4.4).
+
+- 🏆 **CTF Winner**: Winner of the **NIT Jalandhar CTF** and top-15 national finalist in **CyberGeek CTF 2026** (IIT/IIIT Allahabad).
+- 📜 **Published Patent**: Co-inventor on an Indian Patent for a non-invasive EEG-based brain-computer interface (Application No. 202611002192 A).
+- 💼 **Operations & Leadership**: Chief Operating Officer at **CorporateSaathi** (Mumbai), and founder of **JEE.Hub** (bootstrapped to ₹1.5L/mo revenue).
+- 🚔 **Law Enforcement Systems**: Freelance crime-investigation software engineer for **Maharashtra Police** (face-recognition surveillance and Call Detail Record analysis systems).
 
 The portfolio is built with a bespoke **Neobrutalist design system** — bold borders, crisp hard shadows, punchy CMYK-inspired accents, zero external UI framework bloat, and sub-100ms load times.
 
@@ -40,7 +45,7 @@ The portfolio is built with a bespoke **Neobrutalist design system** — bold bo
 - 🎨 **Neobrutalist Aesthetic**: Hand-crafted tokens (`--bg`, `--cyan`, `--magenta`, `--yellow`), signature hard offsets, custom grid rails, and dynamic typography.
 - 🌓 **Theme Engine**: Instant Light / Dark mode toggle with persistent state saved via `localStorage` and system color-scheme detection fallback.
 - 📱 **Fully Responsive & Accessible**: Custom desktop rail navigation + accessible modal drawer for mobile screens. Built according to **WCAG 2.1 AA** standards with full keyboard trap support, focus indicators, and ARIA attributes.
-- 🔍 **Interactive Project Modal & Router**: Dynamic hash routing (`#project/:slug` and `#certificate/:slug`) with embedded interactive system-flow diagrams and deep links.
+- 🔍 **Interactive Project Modal & Router**: Dynamic hash routing (`#project/:slug` and `#certificate/:slug`) with embedded interactive system-flow diagrams, alias fallbacks, and deep links.
 - 📜 **Live Verified Certificate & Evidence Viewer**: Real-time modal viewer for certificates (Cisco, Infosys Springboard, InternsElite, Times Foundation, NIIT) with full PDF preview integration.
 - 🚀 **Zero-Config Deployment**: Optimized static architecture with caching headers, security policies, OpenGraph metadata, and full Vercel / GitHub Pages compatibility.
 
@@ -50,25 +55,28 @@ The portfolio is built with a bespoke **Neobrutalist design system** — bold bo
 
 | Layer | Technologies / Tokens |
 | :--- | :--- |
-| **Structure** | Semantic HTML5, Microdata, OpenGraph & Twitter Card Meta |
-| **Styling** | Modern CSS3 (CSS Custom Properties, CSS Grid, Flexbox, Fluid Typography) |
-| **Typography** | `Syne` (Display/Headings), `Space Grotesk` (Subheads), `Inter` (Body), `Space Mono` (Data/Chips) |
-| **Interactivity** | Vanilla JavaScript (ES6+), Hash History Routing, IntersectionObserver, Keyboard Trap Focus |
-| **Performance** | Zero runtime dependencies, 100/100 Lighthouse Performance, sub-50KB bundle |
+| **Languages** | Python, C, C++, Java, JavaScript, TypeScript, SQL, PHP |
+| **Web & Frameworks** | React, Next.js, FastAPI, Node.js, Preact, Tailwind CSS, HTML5, CSS3, REST APIs |
+| **Cybersecurity** | Ethical Hacking, Vulnerability Assessment, Networking, Blockchain, CTF Competitions |
+| **AI & Vision** | Machine Learning, OpenCV, MediaPipe, Groq AI |
+| **Embedded & IoT** | Arduino, ESP32, ADS-1299 Sensors, EEG / EMG, Ultrasonic |
+| **Tools & Cloud** | MySQL, PostgreSQL, Docker, Git, GitHub, Vercel |
 | **Hosting** | Vercel (Edge Network) & GitHub Pages |
 
 ---
 
 ## 📂 Featured Projects Showcased
 
-1. 🧠 **AI Rehabilitation Platform** — Full-stack rehabilitation suite with doctor, patient, and admin portals powered by OpenCV and MediaPipe computer vision exercise tracking.
-2. 📊 **LPU CodeViz** — Interactive academic visualization platform built with React, Vite, and Tailwind CSS for computer science students.
-3. 💊 **Smart Pharmacy System** — Automated pharmacy workflow management with digital prescriptions and real-time inventory automation.
-4. 🗳️ **Biometric EVM** — Hardware-embedded electronic voting machine featuring biometric voter authentication and cryptographic anti-fraud logging.
-5. ✋ **Touchless Appliance Control** — Arduino & ultrasonic sensor-driven hands-free appliance automation.
-6. 🦾 **Rehabilitation Hand** — Sensor-driven assistive embedded system for post-paralysis hand movement therapy.
-7. 🛡️ **Face Recognition System (Maharashtra Police)** — Photo/CCTV matching tool built as freelance crime-investigation software.
-8. 📞 **CDR Analysis System (Maharashtra Police)** — Call Detail Record processing and relationship mining pipeline built for investigative analysis.
+1. 💻 **CodeCanvas (formerly LPU CodeViz)** — AI-powered code visualization platform stepping through C, C++, Python, and SQL with 10 animated visualizers, complexity analysis, and Groq-powered AI Tutor.
+2. 🧠 **NeuroStride** — AI-powered neurorehabilitation platform combining BCI robotic control, real-time CV exercise coaching, clinical AI telemetry, and smart pharmacy automation.
+3. ⛓️ **Trust Continuity Platform** — Blockchain-based secure platform for identity, access control, and digital asset management for Smart India Hackathon 2026 (Bharat Electronics Limited).
+4. 🎙️ **Lumina Avatar** — Embeddable, real-time, vector-animated voice companion widget for B2B SaaS onboarding and support built with Vite, Preact, and TypeScript.
+5. 🧠 **Non-Invasive EEG Home Control** — Brain-computer interface for hands-free home automation via ADS-1299 biosensors and ESP32 (Indian Patent Application No. 202611002192 A).
+6. 💊 **Smart Pharmacy System** — Automated pharmacy workflow management with digital prescriptions and real-time inventory automation.
+7. 🗳️ **Biometric EVM** — Hardware-embedded electronic voting machine featuring biometric voter authentication and cryptographic anti-fraud logging.
+8. 🦾 **Rehabilitation Hand** — Sensor-driven assistive embedded system for post-paralysis hand movement therapy.
+9. 🛡️ **Face Recognition System (Maharashtra Police)** — Photo/CCTV matching tool built as freelance crime-investigation software.
+10. 📞 **CDR Analysis System (Maharashtra Police)** — Call Detail Record processing and relationship mining pipeline built for investigative analysis.
 
 ---
 
