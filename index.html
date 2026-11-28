@@ -1915,17 +1915,18 @@ const PROJECTS = [
   {
     slug: 'lpu-codeviz',
     num: '02',
-    title: 'LPU CodeViz',
-    short: 'Interactive academic visualization platform for university students.',
-    tags: ['React','Vite','Tailwind','JavaScript'],
+    title: 'CodeCanvas — LPU CodeViz',
+    short: 'AI-powered code visualizer for LPU students — step through C, C++, Python and SQL with 10 animated visualizers, live complexity charts, and a built-in AI Tutor.',
+    tags: ['Next.js','FastAPI','Groq LLM','AI','Education'],
     thumbColor: 'var(--yellow)',
-    problem: 'University students needed a more interactive way to visualize and engage with academic/coding concepts than static material offers.',
-    why: 'Built to make dense technical material more approachable for fellow LPU students.',
-    approach: 'A React and Vite single-page app with Tailwind for a fast, component-driven interactive visualization experience.',
-    stack: ['React','Vite','Tailwind CSS','JavaScript'],
-    contribution: 'Solo build — architecture, UI and interaction design.',
-    result: 'Live interactive visualization platform used in an academic context at LPU.',
-    flow: ['Academic Concept', 'React / Vite Frontend', 'Interactive Visualization', 'Student Understanding']
+    github: 'https://github.com/LTPratham/LPU-CodeViz',
+    problem: 'Students learning to code at LPU had no way to visually step through their own C, C++, Python or SQL programs line by line. Popular platforms like GeeksForGeeks are great but overwhelming for absolute beginners who just need to see what each line actually does in memory.',
+    why: 'When I started coding, I realised the gap between reading code and understanding its runtime behaviour. I built CodeCanvas so LPU students can see variables change, stacks pop, and sorting algorithms animate in real time — making learning intuitive rather than intimidating.',
+    approach: 'Instead of dangerously executing unknown code on a server, the platform uses AI-simulated tracing. Code is sent to a FastAPI backend which calls the Groq Llama-3.3-70B model, acting as an execution engine that returns a strict JSON array of state snapshots — one per line. The Next.js frontend feeds these into a StepController that animates transitions while an AI Tutor sidebar explains each step.',
+    stack: ['Next.js 14', 'React', 'FastAPI', 'Python', 'Groq API (Llama-3.3-70B)', 'Monaco Editor', 'Framer Motion', 'Tailwind CSS', 'Vercel', 'Railway'],
+    contribution: 'Solo end-to-end build — frontend architecture, 10 bespoke visualizer components (Arrays, Sorting, Stacks, Queues, Linked Lists, Binary Trees, Graphs, Recursion, SQL, Variable Boards), FastAPI backend, Groq LLM integration, StepController playback engine, live complexity SVG charts, vector SVG export, and one-click base64 URL sharing.',
+    result: 'Live on Vercel (frontend) and Railway (backend). Pre-loaded with 20+ examples aligned to LPU CS syllabi (C, Python, DBMS, Java, HTML). Features an interactive graph creator, real-time complexity profiler, SVG export, one-click sharing, and a built-in AI Tutor chat.',
+    flow: ['User Code (C / C++ / Python / SQL)', 'FastAPI Backend', 'Groq Llama-3.3-70B', 'JSON State Snapshots', '10 Animated Visualizers', 'AI Tutor Sidebar']
   },
   {
     slug: 'smart-pharmacy-system',
@@ -2194,6 +2195,7 @@ function renderProject(p){
       <div class="modal-section"><h4>Tech Stack</h4><div class="modal-tags">${p.stack.map(t=>`<span class="tag">${t}</span>`).join('')}</div></div>
       <div class="modal-section"><h4>My Contribution</h4><p>${p.contribution}</p></div>
       <div class="modal-section" style="margin-bottom:0;"><h4>Result / Current State</h4><p>${p.result}</p></div>
+      ${p.github ? `<div style="margin-top:20px;"><a href="${p.github}" target="_blank" rel="noopener" class="btn btn-black" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-family:var(--font-mono);font-size:13px;">View on GitHub &rarr;</a></div>` : ''}
     </div>
   `;
 }
