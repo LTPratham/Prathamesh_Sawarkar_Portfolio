@@ -71,12 +71,13 @@ The portfolio is built with a bespoke **Neobrutalist design system** — bold bo
 2. 🧠 **NeuroStride** — AI-powered neurorehabilitation platform combining BCI robotic control, real-time CV exercise coaching, clinical AI telemetry, and smart pharmacy automation.
 3. ⛓️ **Trust Continuity Platform** — Blockchain-based secure platform for identity, access control, and digital asset management for Smart India Hackathon 2026 (Bharat Electronics Limited).
 4. 🎙️ **Lumina Avatar** — Embeddable, real-time, vector-animated voice companion widget for B2B SaaS onboarding and support built with Vite, Preact, and TypeScript.
-5. 🧠 **Non-Invasive EEG Home Control** — Brain-computer interface for hands-free home automation via ADS-1299 biosensors and ESP32 (Indian Patent Application No. 202611002192 A).
-6. 💊 **Smart Pharmacy System** — Automated pharmacy workflow management with digital prescriptions and real-time inventory automation.
-7. 🗳️ **Biometric EVM** — Hardware-embedded electronic voting machine featuring biometric voter authentication and cryptographic anti-fraud logging.
-8. 🦾 **Rehabilitation Hand** — Sensor-driven assistive embedded system for post-paralysis hand movement therapy.
-9. 🛡️ **Face Recognition System (Maharashtra Police)** — Photo/CCTV matching tool built as freelance crime-investigation software.
-10. 📞 **CDR Analysis System (Maharashtra Police)** — Call Detail Record processing and relationship mining pipeline built for investigative analysis.
+5. 🧠 **Non-Invasive EEG-Based Home Control System** — Brain-computer interface for hands-free home automation via ADS-1299 biosensors and ESP32 (Indian Patent Application No. 202611002192 A).
+6. ✋ **Touchless Appliance Control** — Arduino & ultrasonic sensor-driven hands-free appliance automation for smart homes.
+7. 💊 **Smart Pharmacy System** — Automated pharmacy workflow management with digital prescriptions and real-time inventory automation.
+8. 🗳️ **Biometric EVM** — Hardware-embedded electronic voting machine featuring biometric voter authentication and cryptographic anti-fraud logging.
+9. 🦾 **Rehabilitation Hand** — Sensor-driven assistive embedded system for post-paralysis hand movement therapy.
+10. 🛡️ **Face Recognition System (Maharashtra Police)** — Photo/CCTV matching tool built as freelance crime-investigation software.
+11. 📞 **CDR Analysis System (Maharashtra Police)** — Call Detail Record processing and relationship mining pipeline built for investigative analysis.
 
 ---
 
